@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap
+  labels:
+    spring.cloud.kubernetes.config: "true"
+  annotations:
+    spring.cloud.kubernetes.configmap.apps: sample-app
+data:
+  SAMPLE_CONFIG_PROPERTY: new-value

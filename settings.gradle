@@ -1,0 +1,4 @@
+rootProject.name = "spring-cloud-kubernetes-reproducer"
+include("sample-service")
+include 'sample-app'
+
