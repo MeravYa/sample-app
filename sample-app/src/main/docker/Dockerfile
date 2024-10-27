@@ -1,4 +1,4 @@
-FROM eclipse-temurin:11.0.19_7-jdk-alpine
+FROM openjdk:17-alpine
 
 WORKDIR /opt/sample
 
