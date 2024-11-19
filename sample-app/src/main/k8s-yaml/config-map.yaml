@@ -7,4 +7,4 @@ metadata:
   annotations:
     spring.cloud.kubernetes.configmap.apps: sample-app
 data:
-  SAMPLE_CONFIG_PROPERTY: new-value
+  SAMPLE_CONFIG_PROPERTY: "new-value"

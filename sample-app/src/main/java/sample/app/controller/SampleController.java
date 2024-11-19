@@ -8,7 +8,7 @@ import sample.app.config.Config;
 @RequestMapping("/api/v1/sample")
 public class SampleController {
 
-    private Config config;
+    private final Config config;
 
     public SampleController(Config config) {
         this.config = config;
